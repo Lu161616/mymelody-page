@@ -1,0 +1,130 @@
+/* Fondo y fuente */
+body {
+    background-color: #ffd9ec; /* Rosa pastel */
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    color: #ff1493; /* Rosa fuerte */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Imagen My Melody */
+.logo {
+    width: 120px;
+    margin-top: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #ff69b4; /* Rosa brillante */
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #d63384; /* Rosa fuerte */
+    margin-top: 30px;
+}
+
+/* Listas sin puntos */
+ul.sin-puntos {
+    list-style: none;
+    padding: 0;
+}
+
+ul.sin-puntos li {
+    color: #e60073;
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: #ffe6f2; /* rosado suave */
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px #f5a6d1;
+}
+
+
+/* Formularios */
+form {
+    background-color: #fff0f5; /* Rosa muy claro */
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px #f5a6d1;
+}
+
+label {
+    font-weight: bold;
+    color: #d63384;
+}
+
+input[type="text"], input[type="email"] {
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="submit"] {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #e60073;
+}
+/* Contenedor general para formulario + imagen */
+.contenedor-form-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* Espacio entre los dos */
+    margin-top: 20px;
+}
+
+/* Ajustar cada bloque */
+.formulario, .imagen {
+    text-align: center;
+}
+
+/* Imagen de prueba */
+.imagen img {
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px #f5a6d1;
+}
+/* Los títulos de cada bloque alineados arriba */
+.contenedor-form-imagen {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Importante: alinea arriba */
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.formulario h2, .imagen h2 {
+    margin-bottom: 15px;
+    color: #d63384;
+}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff0f5; /* Rosa muy claro */
+    border-top: 3px solid #ff69b4;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0px -2px 10px #f5a6d1;
+}
+
+footer h2 {
+    color: #d63384;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.gif-despedida {
+    width: 200px;
+    border-radius: 15px;
+}
